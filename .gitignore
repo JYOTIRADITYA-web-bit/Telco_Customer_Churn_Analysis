@@ -1,0 +1,15 @@
+Ignore Jupyter checkpoints
+
+.ipynb_checkpoints/
+
+Ignore Python cache
+
+pycache/
+*.pyc
+
+Ignore models and temp files
+
+*.pkl
+*.joblib
+*.log
+*.tmp
