@@ -13,3 +13,7 @@ Ignore models and temp files
 *.joblib
 *.log
 *.tmp
+
+.env
+venv/
+.DS_Store
