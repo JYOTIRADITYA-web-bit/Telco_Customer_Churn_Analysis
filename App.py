@@ -21,7 +21,7 @@ st.title("📊 Telco Customer Churn Analysis")
 # -------------------------------
 # 1. Load Data
 # -------------------------------
-data_file = "Telco.csv"
+data_file = "telco.csv"
 try:
     data = pd.read_csv(data_file)
 except FileNotFoundError:
