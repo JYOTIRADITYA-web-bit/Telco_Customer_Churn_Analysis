@@ -19,9 +19,11 @@ It includes **exploratory data analysis (EDA)**, **feature engineering**, a **Ra
 ## ⚙️ Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/JYOTIRADITYA-web-bit/Telco_Customer_Churn_Analysis.git
 cd Telco_Customer_Churn_Analysis
 
 
-
+## Live Dashboard
+Access the interactive Streamlit dashboard [here](https://share.streamlit.io/<your-username>/<repo-name>/main/App.py)
