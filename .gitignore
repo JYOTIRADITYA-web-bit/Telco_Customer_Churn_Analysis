@@ -5,18 +5,19 @@
 __pycache__/
 *.pyc
 
-# Ignore generic model artifacts, except in models/ and encoders/
+# Ignore models and preprocessing artifacts
+models/
+encoders/
 *.pkl
-!models/*.pkl
-!encoders/*.pkl
-
-# Ignore other temp files
 *.joblib
-*.log
-*.tmp
 
-# Environment and system files
+# Ignore datasets
+*.csv
+*.xlsx
+
+# Ignore environment files
 .env
 venv/
-.DS_Store
 
+# Ignore system files
+.DS_Store
