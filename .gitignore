@@ -1,19 +1,15 @@
-Ignore Jupyter checkpoints
-
+# Ignore Jupyter checkpoints
 .ipynb_checkpoints/
 
-Ignore Python cache
-
-pycache/
+# Ignore Python cache
+__pycache__/
 *.pyc
 
-Ignore models and temp files
-
-*.pkl
-*.joblib
+# Ignore logs and temp files
 *.log
 *.tmp
 
+# Virtual environments & system files
 .env
 venv/
 .DS_Store
