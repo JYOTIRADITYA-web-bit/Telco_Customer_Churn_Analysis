@@ -11,10 +11,6 @@ encoders/
 *.pkl
 *.joblib
 
-# Ignore datasets
-*.csv
-*.xlsx
-
 # Ignore environment files
 .env
 venv/
